@@ -1,0 +1,17 @@
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* src/index.css */
+html, body {
+  margin: 0;         /* Remove default margin */
+  padding: 0;        /* Remove default padding */
+  box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+}
+
+* {
+  box-sizing: inherit; /* Inherit box-sizing from html */
+}

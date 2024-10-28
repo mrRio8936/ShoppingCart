@@ -1,0 +1,27 @@
+/* src/components/NavBar.css */
+.navbar-brand {
+    font-size: 1.5rem; /* Size of the logo text */
+    font-weight: normal; /* Normal font weight */
+    text-transform: uppercase; /* Uppercase text */
+    color: white; /* Base color */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+  }
+
+.text-orange {
+    color: orange; /* Set the color for "Karo" */
+    font-weight: bold; /* Optional: make it bold */
+  }
+  
+  .nav-link {
+    color: white; /* Set the color for nav links */
+    font-size: 1.2rem; /* Increase the font size */
+  }
+  
+  .nav-link:hover {
+    color: orange; /* Change color on hover */
+  }
+  
+  .nav-link .svg-inline--fa {
+    font-size: 1.5rem; /* Adjust cart icon size */
+  }
+  
